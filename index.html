@@ -22,6 +22,24 @@
             text-decoration: none !important;
             color: black !important;
         }
+        
+        .hide {
+            display: none;
+        }
+        
+        .myDIV:hover+.hide {
+            display: inline-block;
+            position: absolute;
+            width: 240px;
+            background-color: #fff;
+            color: black;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+            top: 100%;
+            left: 50%;
+            margin-left: -120px;
+        }
     </style>
 
     <link rel="shortcut icon" type="image/png" href="images/index_logo.png" />
@@ -44,13 +62,31 @@
     <div class='container mt-3 py-3 px-3' style='background-color:rgb(230, 221, 95);'>
         <div class='row'>
             <div class='col-md-2'>
-                <img src="images/IIT_Kgp_logo.png" width="100%" style="max-width: 200px">
+                <a href="http://www.iitkgp.ac.in/" target="_blank">
+                    <img src="images/IIT_Kgp_logo.png" width="100%" style="max-width: 200px">
+                </a>
             </div>
             <div class='col-md-8 text-center'>
                 <h2>Mallipudi Ganesh Kumar</h2>
                 <h6>Post Graduate Student in Systems Design</h6>
                 <h6>Mechanical Engineering Department</h6>
                 <h6>Indian Institute of Technology Kharagpur</h6>
+                <div class='row'>
+                    <div class='col-md-4'></div>
+                    <div class='col-md-4 text-center'>
+                        <div class="row">
+                            <div class='col text-Center myDIV'><a href="mailto:ganeshmallipudi27@gmail.com " target="_blank"><strong><img src="images/Gmail_icon.png" width="100%" style="max-width: 20px"></strong></a></div>
+                            <span class='hide'>ganeshmallipudi27@gmail.com</span>
+                            <div class='col text-Center myDIV'><a href="tel:+91 96529 40924 " target="_blank"><strong><img src="images/Phone_icon.png" width="100%" style="max-width: 20px"></strong></a></div>
+                            <span class='hide'>+91 9652940924</span>
+                            <div class='col text-Center myDIV'><a href="https://github.com/Ganesh-Mallipudi" target="_blank"><strong><img src="images/Github_icon.png" width="100%" style="max-width: 20px"></strong></a></div>
+                            <span class='hide'>github.com/Ganesh-Mallipudi</span>
+                            <div class='col text-Center myDIV'><a href="https://www.linkedin.com/in/ganesh-mallipudi/" target="_blank"><strong><img src="images/Linkedin_icon.png" width="100%" style="max-width: 20px"></strong></a></div>
+                            <span class='hide'>linkedin.com/in/ganesh-mallipudi</span>
+                        </div>
+                    </div>
+                    <div class='col-sm-4'><br><br></div>
+                </div>
             </div>
             <div class='col-md-2'>
                 <img src="images/ganesh_pp_30.jpg" width="100%" style="max-width: 200px">
@@ -73,7 +109,11 @@
             <div class='col-md-5 mx-3' style='background-color: cornsilk;'>
                 <h3 class='text-center' style='background-color: darkgray;'>Skills & Expertise</h3>
                 <p>
-                    <br><strong>Programming Languagues :</strong> C,C++,Python.<br> <br><strong>Tools :</strong> Matlab,Ansys,Abaqus,Symbols.<br><br> -Had experience in customization of the Abaqus and Nx Cad Softwares as a part of academic work.<br><br>                    -Also developed own Finite Element and Finite Difference Codes using Matlab software for course and thesis works.<br><br>-Cleared Skill Certification Test in Python Basics and achieved Gold badge in problem solving in Hackerrank
+                    <br><strong>Programming Languagues :</strong> C,C++,Python.<br> <br><strong>Tools :</strong> Matlab,Ansys,Abaqus,Symbols.<br><br> -Had experience in customization of the <strong>Abaqus</strong> and <strong>Nx Cad</strong> Softwares
+                    as a part of academic work.<br><br>-Also developed own <strong>Finite Element and Finite Difference Codes using Matlab software</strong> for course and thesis works.<br>
+                    <br>-Cleared Skill Certification Test in
+                    <a class="onHoverDark hrefWithoutDecoration" href="https://drive.google.com/file/d/1rVgYzKSF__vD8CNrcIgLM_D5nAqBE0SP/view?usp=sharing" target="_blank"><strong>Python Basics</strong><img src="images/hl_icon.png" width="100%" style="max-width: 20px"></a>and
+                    achieved Gold badge in problem solving in Hackerrank
                 </p>
             </div>
         </div>
@@ -85,31 +125,51 @@
                 <table class='text-center' style="width:100%">
                     <tr>
                         <th>Degree</th>
-                        <th>Institute</th>
+                        <th> Institute</th>
                         <th>Percentage/CGPA</th>
                         <th>Year of Passing</th>
                     </tr>
                     <tr>
-                        <td>M.Tech</td>
+                        <td>
+                            <a class="onHoverDark hrefWithoutDecoration" href="https://drive.google.com/file/d/1k2CvCH1xGt458YaEMPUycn6_J2s6pPiL/view?usp=sharing" target="_blank">
+                                M.Tech
+                                <img src="images/hl_icon_2.png" width="100%" style="max-width: 15px">
+                            </a>
+                        </td>
                         <td>IIT Kharagpur</td>
                         <td>9.55</td>
                         <td>2021</td>
                     </tr>
                     <tr>
-                        <td>B.Tech</td>
-                        <td>Jawaharlal Nehru Technological University Kakinada</td>
+                        <td>
+                            <a class="onHoverDark hrefWithoutDecoration" href="https://drive.google.com/file/d/1gzmEan_Mvo-9953qlkytWnlvnRiI9PLq/view?usp=sharing" target="_blank">
+                                B.Tech
+                                <img src="images/hl_icon_2.png" width="100%" style="max-width: 15px">
+                            </a>
+                        </td>
+                        <td>JNTU Kakinada</td>
                         <td>78.32</td>
                         <td>2018</td>
                     </tr>
                     <tr>
-                        <td>Intermediate</td>
-                        <td>Board of Intermediate Education Andhra Pradesh</td>
+                        <td>
+                            <a class="onHoverDark hrefWithoutDecoration" href="https://drive.google.com/file/d/1WkpjC8LIBn5bUobmt45VUyjYebBcmJMn/view?usp=sharing" target="_blank">
+                                Intermediate
+                                <img src="images/hl_icon_2.png" width="100%" style="max-width: 15px">
+                            </a>
+                        </td>
+                        <td>Board of Intermediate Education AP</td>
                         <td>96.9</td>
                         <td>2014</td>
                     </tr>
                     <tr>
-                        <td>Matriculation</td>
-                        <td>Board of Secondary Educations Andhra Pradesh</td>
+                        <td>
+                            <a class="onHoverDark hrefWithoutDecoration" href="https://drive.google.com/file/d/1DT5PsKApKt1ekDHN8_6n2ZrT8AjCavwQ/view?usp=sharing" target="_blank">
+                                Matriculation
+                                <img src="images/hl_icon_2.png" width="100%" style="max-width: 15px">
+                            </a>
+                        </td>
+                        <td>Board of Secondary Education AP</td>
                         <td>9.5</td>
                         <td>2012</td>
                     </tr>
@@ -131,21 +191,21 @@
                     <strong>Bachelors's Thesis Project : Determination Of Natural Frequencies of a Composite Plate</strong><br> Advisor: Advisor: Shri.K Dileep kumar,Assistant Proffesor,Mechanical Engineering Department,JNTU Kakinada.
                 </h4>
                 <p> Here,we developed a python code to obtain the effective properties of composite and stiffness matrix of the given composite to identify the progessive damage of composite and thereby computed the natural frequency of a composite plate
-                    under specified conditions and compared it with the value obtained from Ansys software.<br>
+                    under specified conditions and compared it with the value obtained from Ansys software.
                     <a href="https://drive.google.com/file/d/1FlWqg6ElCmP8qQwSe47Y3XpZZuyKPrh-/view?usp=sharing" target="_blank"><strong>Continue Reading</strong></a>
                 </p>
                 <h4 style='font-size: medium;'>
                     <strong>Course Projects:<br><br>Advanced Mechanics of Solids : Implementation of Elastica Theory to Beams,Columns using python</strong>
                 </h4>
                 <p>In this project,we have utilised the phython libraries like sympy,numpy,matplotlib in order to predict the deflected shape of beams,colums when loaded axially,traversly and instabilites like buckling in columns using more sophisticated
-                    theory Elastica and to compare with the theories studied during under graduate<br>
+                    theory Elastica and to compare with the theories studied during under graduate
                     <a href="https://github.com/Ganesh-Mallipudi/Ganesh-Mallipudi.github.io/tree/master/Elastica" target="_blank"><strong>Continue Reading</strong></a>
                 </p>
                 <h4 style='font-size: medium;'>
                     <strong>Composites: Determination of Representative Volume Element Size to calculate the effective properties of composite</strong>
                 </h4>
                 <p>As the composites are inhomogeneous in nature,we have to first determine the effective size of the element inorder to treat composite as homogeneous and model it.But the process of finding RVE size by trail and error is time consuming
-                    and also one has to perform many simulations.So,here we developed a algorithm which takes the intial size and give out rve size by performing the simulations in a iterative manner.<br>
+                    and also one has to perform many simulations.So,here we developed a algorithm which takes the intial size and give out rve size by performing the simulations in a iterative manner.
                     <a href="https://drive.google.com/file/d/1aFR8Igslkp-wSZFUtpQThHzsbyBSeIpk/view?usp=sharing" target="_blank"><strong>Continue Reading</strong></a>
                 </p>
             </div>
@@ -156,14 +216,20 @@
                 <h3 class='text-center' style='background-color: darkgray;'>Industrial Training</h3>
                 <h4 style='font-size: medium;'>
                     <strong>
-                        <a class="nav-link onHoverDark hrefWithoutDecoration" href="https://drive.google.com/file/d/10qjwfEGPUgGEF1NUa2aHMZaYQ4iwbWA7/view?usp=sharing" target="_blank">Industrial Training at Visakhapatnam Steel Plant(AP) [January 2017]</a> 
+                        <a class="onHoverDark hrefWithoutDecoration" href="https://drive.google.com/file/d/10qjwfEGPUgGEF1NUa2aHMZaYQ4iwbWA7/view?usp=sharing" target="_blank">
+                            Industrial Training at Visakhapatnam Steel Plant(AP) [January 2017]
+                            <img src="images/hl_icon_2.png" width="100%" style="max-width: 15px">
+                        </a> 
                     </strong>
                 </h4>
                 <p> Completed Industrial Training at Blast Furnace Department of Vizag Steel Plant for a period of two weeks.Also visited different departments like Air Separation Plant,Coke Ovens,Steel Melt Shop,Low & Medium Merchant Mills.
                 </p>
                 <h4 style='font-size: medium;'>
                     <strong>
-                        <a class="nav-link onHoverDark hrefWithoutDecoration" href="https://drive.google.com/file/d/1ez4MIJl-PoCUicnWCFhQWHgFuKKEZKUC/view?usp=sharing" target="_blank">Industrial Training at South Central Railway Vijayawada(AP) [May-June 2016]</a>
+                        <a class="onHoverDark hrefWithoutDecoration" href="https://drive.google.com/file/d/1ez4MIJl-PoCUicnWCFhQWHgFuKKEZKUC/view?usp=sharing" target="_blank">
+                            Industrial Training at South Central Railway Vijayawada(AP) [May-June 2016]
+                            <img src="images/hl_icon_2.png" width="100%" style="max-width: 15px">
+                        </a>
                     </strong>
                 </h4>
                 <p> Did one month of Industrial Training at Diesel Locoshed of South Central Railway at Vijayawada covering Diesel Locomotives,Braking System of Locomotives,Overhauling and Maintainence of ICF Bogies.
@@ -176,7 +242,10 @@
                 <h3 class='text-center' style='background-color: darkgray;'>Certification</h3>
                 <h4 style='font-size: medium;'>
                     <strong>
-                        <a class="nav-link onHoverDark hrefWithoutDecoration" href="https://drive.google.com/file/d/1KCmZRwm94A_PTRfFbYpSH46nSXG2VzwK/view?usp=sharing" target="_blank">Programming for Everybody,Online Course,University of Michigan [July-August 2020]</a>
+                        <a class="onHoverDark hrefWithoutDecoration" href="https://drive.google.com/file/d/1KCmZRwm94A_PTRfFbYpSH46nSXG2VzwK/view?usp=sharing" target="_blank">
+                            Programming for Everybody,Online Course,University of Michigan [July-August 2020]
+                            <img src="images/hl_icon_2.png" width="100%" style="max-width: 15px">
+                        </a>
                     </strong>
                 </h4>
                 <p> Completed online course in python programming covering Python basics,Python Data structures,Object Oriented Programming in Python.Also worked with python libraries Sympy,Numpy,Matplotlib during academic course projects.
@@ -188,6 +257,25 @@
             <div class='col-md-11 mx-3 pb-3' style='background-color: cornsilk;'>
                 <h3 class='text-center' style='background-color: darkgray;'>Position Of Responsibilty</h3>
                 <p><strong>Teaching Assistant</strong> to the course Applied Elasticity(ME60401) under Asst prof.Dr Jeevanjyoti Chakraborthy in Autumn semester of 2020-21.</p>
+            </div>
+        </div>
+
+        <div class='row mt-3'>
+            <div class='col-md-11 mx-3 pb-3' style='background-color: cornsilk;'>
+                <h3 class='text-center' style='background-color: darkgray;'>Academic Achievements</h3>
+                <p>-Secured <strong><a class="onHoverDark hrefWithoutDecoration" href="https://drive.google.com/file/d/1Yc7kkWeSjCPlTsE-yoierAKA2pBL7jNf/view?usp=sharing" target="_blank">AIR 488<img src="images/hl_icon.png" width="100%" style="max-width: 20px"></a></strong>rank
+                    among 1,67,376 candidates in Mechanical Enginerring in GATE 2019.<br>-Secured <strong>2534</strong> rank in State Engineering Entrance Examination EAMCET 2014.<br> -Secured <strong>Runners</strong> during University Techincal Quiz
+                    competetions during Senior-Junior Friendship Day Clebrations in 2014
+                </p>
+            </div>
+        </div>
+        <div class='row mt-3'>
+            <div class='col-md-11 mx-3 pb-3' style='background-color: cornsilk;'>
+                <h3 class='text-center' style='background-color: darkgray;'>Extra Circular Activities</h3>
+                <p>
+                    -Volunteer in the <strong>KRIYA-2017</strong> State level Children Festival which saw the participation of more than 10000 students from 450 schools.<br> -Participated in <strong>Robowars</strong> Event at NIT Warangal 2015 and <strong>Aquabot</strong>                    Event at VNIT Nagpur 2016.<br>-Attended workshop on <strong>Autonomous Robotics & Embedded Systems</strong> counducted by Geeks lab technologies in association with IIT Delhi.<br> -Amateur player in chess,cricket and loves travelling
+                    & exploring.
+                </p>
             </div>
         </div>
     </div>
